@@ -1,0 +1,71 @@
+\resizebox{\textwidth}{!}{%
+\scriptsize
+\begin{forest}
+ for tree={draw,align=left,base=top,ignore edge},
+ forked edges, remember picture,
+ [\textbf{(1) Prototypical-Determinative-Compound-Construction}\\
+ \begin{tabular}{p{9cm}@{~}p{9cm}}
+  \bfseries Form: & \bfseries Meaning (narrow):\\
+  {[[Lexeme][+/-LE][Lexeme]\textsubscript{+/-valent}]}\textsubscript{+/-SynthC} & ``Specification of B through A'': Instantiation of subject-orientated{,} object-orientated{,} attribute-like and averbial patterns.\\
+  Gender/Part of Speech: like B & Naming function\\
+  \end{tabular},name=proto,delay={tikz={\draw[fill=gray](.210) -- (.330)--(!1.north)--cycle;\node [below=\baselineskip of .345] {Partial inheritance of features};}}
+    [\textbf{(2) Phrasal-Compound-Construction}\\
+     \begin{tabular}{p{9cm}@{~}p{9cm}}
+      \bfseries Form: & \bfseries Meaning (narrow):\\
+      {[[Syntagma][+/-LE]\newline [Substantive]\textsubscript{non-derived\slash de-adj.\slash de-subst.\slash deverbal{;} +/-valent}]}\textsubscript{N{;}+/-SynthC} & ``Specification of B through A'': Instantiation of subject-orientated{,} object-orientated{,} attribute-like and averbial patterns.\\
+      Gender/Part of Speech: like B{;} +/- word-specific features & Naming function \slash assertion function\\
+      \multicolumn{2}{l}{\bfseries Pragmatic:}\\
+      \multicolumn{2}{p{18cm}}{Communicative advantages over sentences{;} +/--specific communicative functions{;} more expressive than prototypical determinative compounds}
+     \end{tabular}, no edge,l=3cm
+      [\textbf{(3.1) Attribute-like-Construction}\\
+      {[[Sentence/sentence-like structure\textsubscript{-Proper Name}/Phrase\textsubscript{+CM}]-}\\\relax {[Substantive]\textsubscript{non-derived/de-adj./de-subst./deverb.}]}\textsubscript{N;-SynthC}\\
+      \textbf{+ specific communicative functions; highly expressive},calign=first
+	      [\textbf{(4.1) Attribute-like-Construction}\\
+	      {[[Sentence/sentence-like str.\textsubscript{-Proper Name} / Phrase\textsubscript{+CM}]}\\ - {[Substantive]\textsubscript{non-der./de-adj./de-subst./deverb.; +/-valent}]}
+		[\textbf{(5.1) Explikative-Constr.}\\
+		{[S-entire/S-ellipt/SScheme-ellipt/}\\
+		{VG\textsubscript{+CM}/Phrase\textsubscript{+CM}]}\textsubscript{-Prop.Name}\\
+		- {[Substantive]}
+		,name=expli]
+	      ]
+      ]
+      [\textbf{(3.2) Attribute-like- / Adverbial- / Subject-orientated- / Object-orientated - Constr.}\\
+      {[[Phrase\textsubscript{-CM}/Sentence\textsubscript{+Proper Name}]} - {[Substantive] \textsubscript{non-derived/de-adj./de-subst./deverb.}]}\textsubscript{N;+/-SynthC}\\
+      \textbf{- specific communicative functions; slightly expressive}
+	  [\textbf{(4.2) Attribute-like-Constr.}\\
+	  {[[Phrase\textsubscript{-CM}/Sentence\textsubscript{+Prop.Name}]-}\\
+	  {[Substantive]\textsubscript{non-der./de-adj./de-subst./}}\\{\textsubscript{deverb.;+/-valent}]},calign=first	
+	    [\textbf{(5.2) Domain-Construction}\\
+	     {[Phrase\textsubscript{-KM}/Sentence\textsubscript{+Prop.Name}] -}\\
+	     {[Substantive]}
+	    ]
+	    [\textbf{(5.3) Theme-Construction}\\
+	     {[Phrase\textsubscript{-CM}/Inf-koord/VG\textsubscript{-CM}/}\\
+	     {Sentence\textsubscript{+Prop.Name}] - [Substantive]}
+	    ]
+	    [\textbf{(5.4) Qualitative-Construction}\\
+	     {[Phrase\slash VG\textsubscript{-CM}] - [Concrete noun]}
+	    ]
+	    [\textbf{(5.5) Constitutional-Construction}\\
+	     {[NP\_\{Num/Adj\}] - [Collective noun]}
+	    ]
+	  ]
+	  [\textbf{(4.3) Adverbial-Constr.}\\
+	  {[[Phrase\textsubscript{-CM}/Sentence\textsubscript{+Prop.Name}]-}\\
+	  {[Substantive]\textsubscript{de-subst./deverb.;+/-valent}]}	
+	  ]
+	  [\textbf{(4.4) Subject-orientated-Constr.}\\
+	  {[[Phrase\textsubscript{-CM}/Sentence\textsubscript{+Prop.Name}]-}\\
+	  {[Substantive]\textsubscript{non-der./de-adj./de-subst./}}\\{\textsubscript{deverb.;+valent/agentiv}]}	
+	  ]
+	  [\textbf{(4.5) Object-orientated-Constr.}\\
+	  {[[Phrase\textsubscript{-CM}/Sentence\textsubscript{+Prop.Name}]-}\\
+	  {[Substantive]\textsubscript{de-adj./deverb.;+valent}]}	
+	  ]
+      ]
+    ]
+ ,delay={tikz={
+ 		\path let \p1=($(proto.north west)+(-1cm,0)$), \p2=(expli.south west) in coordinate (newexpli) at (\x1,\y2);
+ 		\draw (newexpli) -- ($(proto.north west) + (-1cm,0)$) node [midway,above,sloped] {Level of abstractness} node [at start,below] {Low} node [at end,above] {High};
+  }}] 
+\end{forest}}

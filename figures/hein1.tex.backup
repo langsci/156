@@ -1,0 +1,76 @@
+\documentclass[output=paper]{LSP/langsci} 
+\author{Katrin Hein\affiliation{Institut für deutsche Sprache, Mannheim}
+}
+\title{My thesis}
+\begin{document}
+\maketitle
+\begin{sidewaysfigure}
+\scriptsize
+\begin{forest}
+ for tree={draw,align=left,base=top},
+ forked edges,
+ [\textbf{(1) Prototypical-Determinative-Compound-Construction}\\
+ \begin{tabular}{p{9cm}@{~}p{9cm}}
+  \bfseries Form: & \bfseries Meaning (narrow):\\
+  {[[Lexeme][+/-LE][Lexeme]\textsubscript{+/-valent}]}\textsubscript{+/-SynthC} & ``Specification of B through A'': Instantiation of subject-orientated{,} object-orientated{,} attribute-like and averbial patterns.\\
+  Gender/Part of Speech: like B & Naming function\\
+  \end{tabular},delay={tikz={\draw(.south)-- (!1.north west)--(!l.north east)--cycle;}}
+    [\textbf{(2) Phrasal-Compound-Construction}\\
+     \begin{tabular}{p{9cm}@{~}p{9cm}}
+      \bfseries Form: & \bfseries Meaning (narrow):\\
+      {[[Syntagma][+/-LE]\newline [Substantive]\textsubscript{non-derived\slash de-adj.\slash de-subst.\slash edverbal{;} +/-valent}]}\textsubscript{N{;}+/-SynthC} & ``Specification of B through A'': Instantiation of subject-orientated{,} object-orientated{,} attribute-like and averbial patterns.\\
+      Gender/Part of Speech: like B{;} +/- word-specific features & Naming function \slash assertion function\\
+      \multicolumn{2}{l}{\bfseries Pragmatic:}\\
+      \multicolumn{2}{p{18cm}}{Communicative advantages over sentences{;} +/--specific communicative functions{;} more expressive than prototypical determinative compounds}
+     \end{tabular}, no edge,l=3cm
+      [\textbf{(3.1) Attribute-like-Construction}\\
+      {[[Sentence/sentence-like structure\textsubscript{-Proper Name}/Phrase\textsubscript{+CM}]-}\\\relax {[Substantive]\textsubscript{non-derived/deadj./de-subst./deverb.}]}\textsubscript{N;-SynthC}\\
+      \textbf{+ specific communicative functions; highly expressive}
+	      [\textbf{(4.1) Attribute-like-Construction}\\
+	      {[[Sentence/sentence-like str.\textsubscript{-Proper Name} / Phrase\textsubscript{+CM}]}\\ - {[Substantive]\textsubscript{non-der./de-adj./de-subst./deverb.; +/-valent}]}
+		[\textbf{(5.1) Explikative-Constr.}\\
+		{[S-entire/S-ellipt/SScheme-ellipt/}\\
+		{VG\textsubscript{+CM}/Phrase\textsubscript{+CM}]}\textsubscript{-Prop.Name}\\
+		- {[Substantive]}
+		]
+	      ]
+      ]
+      [\textbf{(3.2) Attribute-like- / Adverbial- / Subject-orientated- / Object-orientated - Constr.}\\
+      {[[Phrase\textsubscript{-CM}/Sentence\textsubscript{+Proper Name}]} \\ - {[Substantive] \textsubscript{non-derived/de-adj./de-subst./deverb.}]}\textsubscript{N;+/-SynthC}\\
+      \textbf{- specific communicative functions; slightly expressive}
+	  [\textbf{(4.2) Attribute-like-Constr.}\\
+	  {[[Phrase\textsubscript{-CM}/Sentence\textsubscript{+Prop.Name}]-}\\
+	  {[Substantive]\textsubscript{non-der./de-adj./de-subst./}}\\{\textsubscript{deverb.;+/-valent}]}	
+	    [\textbf{(5.2) Domain-Construction}\\
+	     {[Phrase\textsubscript{-KM}/Sentence\textsubscript{+Prop.Name}] -}\\
+	     {[Substantive]}
+	    ]
+	    [\textbf{(5.3) Theme-Construction}\\
+	     {[Phrase\textsubscript{-CM}/Inf-koord/VG\textsubscript{-CM}/}\\
+	     {Satz\textsubscript{+Prop.Name}] - [Substantive]}
+	    ]
+	    [\textbf{(5.4) Qualitative-Construction}\\
+	     {[Phrase\textsubscript{-CM}] - [Collective noun]}
+	    ]
+	    [\textbf{(5.5) Constitutional-Construction}\\
+	     {[NP\_\{Num/Adj\}] - [Collective noun]}
+	    ]
+	  ]
+	  [\textbf{(4.3) Adverbial-Constr.}\\
+	  {[[Phrase\textsubscript{-CM}/Sentence\textsubscript{+Prop.Name}]-}\\
+	  {[Substantive]\textsubscript{de-subst./deverb.;+/-valent}]}	
+	  ]
+	  [\textbf{(4.4) Subject-orientated-Constr.}\\
+	  {[[Phrase\textsubscript{-CM}/Sentence\textsubscript{+Prop.Name}]-}\\
+	  {[Substantive]\textsubscript{non-der./de-adj./de-subst./}}\\{\textsubscript{deverb.;+valent/agentiv}]}	
+	  ]
+	  [\textbf{(4.5) Object-orientated-Constr.}\\
+	  {[[Phrase\textsubscript{-CM}/Sentence\textsubscript{+Prop.Name}]-}\\
+	  {[Substantive]\textsubscript{de-adj./deverb.;+valent}]}	
+	  ]
+      ]
+    ]
+ ] 
+\end{forest}
+\end{sidewaysfigure}
+\end{document}

@@ -1,0 +1,32 @@
+Afrikaans
+Altaic
+Armenian
+Bulgarian
+Cappadocian
+Chinese
+Czech
+English
+Faroese
+French
+German
+Germanic
+Ancient Greek
+Pharasiot Greek
+Greek
+Hellenic
+Icelandic
+Italian
+Sino-Japanese
+Japanese
+Khalkha
+Latin
+Mongolian
+Norwegian
+Polish
+Romance
+Russian
+Slavic
+Slavonic
+Slovak
+Turkic
+Turkish
